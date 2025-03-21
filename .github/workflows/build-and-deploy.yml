@@ -2,7 +2,7 @@ name: Build and deploy web game
 
 on:
   push:
-    branches: [ main ]
+    branches: [ recette, develop ]
 
 env:
   AZURE_WEBAPP_NAME: 'globomantics-web-game'   # set this to your application's name
